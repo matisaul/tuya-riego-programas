@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Conexión local al riego",
+        "description": "Datos del equipo desde Tuya IoT Platform (Query Device Details): device_id, IP local y local_key.",
+        "data": {
+          "name": "Nombre",
+          "device_id": "Device ID",
+          "host": "IP local del equipo",
+          "local_key": "Local key",
+          "protocol_version": "Versión de protocolo",
+          "dp": "DP de programas (normal_timer)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar al equipo por la red local. Revisa IP, local_key y versión.",
+      "dp_missing": "El equipo respondió, pero no reportó el DP de programas.",
+      "bad_format": "El DP de programas tiene un formato no reconocido."
+    },
+    "abort": {
+      "already_configured": "Este equipo ya está configurado."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opciones",
+        "description": "Nombres de zona (opcional) para mostrarlos en los switches.",
+        "data": {
+          "scan_interval": "Intervalo de lectura (segundos)",
+          "zona_1": "Nombre zona 1",
+          "zona_2": "Nombre zona 2",
+          "zona_3": "Nombre zona 3",
+          "zona_4": "Nombre zona 4",
+          "zona_5": "Nombre zona 5",
+          "zona_6": "Nombre zona 6",
+          "zona_7": "Nombre zona 7",
+          "zona_8": "Nombre zona 8",
+          "zona_9": "Nombre zona 9",
+          "zona_10": "Nombre zona 10",
+          "zona_11": "Nombre zona 11",
+          "zona_12": "Nombre zona 12"
+        }
+      }
+    }
+  }
+}

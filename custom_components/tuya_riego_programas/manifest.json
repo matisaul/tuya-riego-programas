@@ -1,0 +1,15 @@
+{
+  "domain": "tuya_riego_programas",
+  "name": "Tuya Riego Programas",
+  "codeowners": [
+    "@matisaul"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/matisaul/tuya-riego-programas",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/matisaul/tuya-riego-programas/issues",
+  "requirements": [
+    "tinytuya==1.21.1"
+  ],
+  "version": "0.1.0"
+}
