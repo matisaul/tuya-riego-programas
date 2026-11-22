@@ -35,6 +35,11 @@ Conviene fijar la IP del riego en el DHCP del router.
 - **Nombres de zona**: por ejemplo zona 1 = "Pasto Terraza". Se usan en el nombre y en los atributos del switch.
 - **Intervalo de lectura**: 15 s por defecto. Es el tiempo máximo que tarda HA en ver un cambio hecho en la app.
 
+### Logo
+
+El logo va en `custom_components/tuya_riego_programas/brand/` (`icon.png`, `logo.png` y sus versiones `@2x`).
+Home Assistant 2026.3 o superior lo muestra directamente. En versiones anteriores la integración funciona igual, pero sin logo.
+
 ## Entidades
 
 `switch.<nombre_integración>_programa_<id>`. El `id` lo asigna la app y no cambia al editar el programa,
